@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ANRLib_Example' do
+  pod 'ANRLib', :path => '../'
+
+  target 'ANRLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
