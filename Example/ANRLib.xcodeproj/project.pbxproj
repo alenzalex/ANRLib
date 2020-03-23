@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		1B998C7DB88714AE3A074AD6 /* Pods_ANRLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ANRLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		336030A0D62DB8FD8ABB87F0 /* Pods-ANRLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANRLib_Example.release.xcconfig"; path = "Target Support Files/Pods-ANRLib_Example/Pods-ANRLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		469EEE469C08587E0C2F4F49 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		469EEE469C08587E0C2F4F49 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ANRLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ANRLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,8 +42,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		A1BC1E75FF59E27767623098 /* Pods-ANRLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANRLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-ANRLib_Tests/Pods-ANRLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B63A038C4A0DC82FBE210D96 /* ANRLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ANRLib.podspec; path = ../ANRLib.podspec; sourceTree = "<group>"; };
-		BC129EA531FEC8714FFF934F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B63A038C4A0DC82FBE210D96 /* ANRLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ANRLib.podspec; path = ../ANRLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC129EA531FEC8714FFF934F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D2AB3AFE14E34E0EE179C2F5 /* Pods_ANRLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ANRLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3AD25277BE8C2FFA06B08FD /* Pods-ANRLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANRLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-ANRLib_Example/Pods-ANRLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FE4C13CB9B8AF06535444839 /* Pods-ANRLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANRLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ANRLib_Tests/Pods-ANRLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				FE4C13CB9B8AF06535444839 /* Pods-ANRLib_Tests.debug.xcconfig */,
 				A1BC1E75FF59E27767623098 /* Pods-ANRLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

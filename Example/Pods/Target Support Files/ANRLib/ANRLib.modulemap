@@ -1,0 +1,6 @@
+framework module ANRLib {
+  umbrella header "ANRLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
