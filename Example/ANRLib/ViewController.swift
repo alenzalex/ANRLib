@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import ANRLib
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        Utility.showToast(message: "dfthrerwew", in: self, withDuration: 5.0)
         // Do any additional setup after loading the view, typically from a nib.
     }
 

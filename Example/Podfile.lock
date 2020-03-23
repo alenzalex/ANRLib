@@ -2,15 +2,20 @@ PODS:
   - ANRLib (0.1.0)
 
 DEPENDENCIES:
-  - ANRLib (from `../`)
+  - ANRLib (from `https://github.com/alenzalex/ANRLib.git`)
 
 EXTERNAL SOURCES:
   ANRLib:
-    :path: "../"
+    :git: https://github.com/alenzalex/ANRLib.git
+
+CHECKOUT OPTIONS:
+  ANRLib:
+    :commit: f71bd74193f0e4f4235d8691bfb20c308613d483
+    :git: https://github.com/alenzalex/ANRLib.git
 
 SPEC CHECKSUMS:
-  ANRLib: 1eea5f3e54f2255604fd734d4d2242e806c8a485
+  ANRLib: 879e1aaee67ed270f03c6c69498d30f49547bccb
 
-PODFILE CHECKSUM: 55196391bfb696a6b264355b1d5d3cdbdde406d7
+PODFILE CHECKSUM: fe216f76a274e19117e851cbf930d2793e6f7e6b
 
 COCOAPODS: 1.9.1

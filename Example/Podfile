@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'ANRLib_Example' do
-  pod 'ANRLib', :path => '../'
+  pod 'ANRLib', :git => 'https://github.com/alenzalex/ANRLib.git'
 
   target 'ANRLib_Tests' do
     inherit! :search_paths

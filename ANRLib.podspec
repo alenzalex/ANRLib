@@ -31,7 +31,7 @@ This is a sample Cocoapods Library to learn pods creation but used for utlity me
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ANRLib/Classes/**/*'
-  
+  s.swift_version = '4.0'
   # s.resource_bundles = {
   #   'ANRLib' => ['ANRLib/Assets/*.png']
   # }

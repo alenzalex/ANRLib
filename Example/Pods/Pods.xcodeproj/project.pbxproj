@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		045D59AB694EBA636A1B6336F25D4464 /* Pods-ANRLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B742BFCEBC9DE1BD89B23D6EC93849 /* Pods-ANRLib_Example-dummy.m */; };
-		47C0A0C9C5A1FA933987762A73C896F9 /* ANRLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6080C3F4E1095C6B8E34E3F636A14B2 /* ANRLib-dummy.m */; };
+		47C0A0C9C5A1FA933987762A73C896F9 /* ANRLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EADFC0816B8AFC03A22692DB10A32652 /* ANRLib-dummy.m */; };
 		C676050AA8F692A36207CE0F84407705 /* Pods-ANRLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2097C9FBF752BA45E79A279265C4A5DD /* Pods-ANRLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D35660C4C6057EA3DA9969B4A77AF53C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		D46C1DA533782EA0A26C0F9FE37D72E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		EF5C8512E2CB272D5BA2B35519388970 /* Pods-ANRLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD0DF32CBF86E78951F5F3933B959E3 /* Pods-ANRLib_Tests-dummy.m */; };
-		F04F15DFCED2B07922A3FF551FD21E6A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0C0F129050767DFABC6B12050558FF /* ReplaceMe.swift */; };
+		F04F15DFCED2B07922A3FF551FD21E6A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B860EBFCA2CE97276CCBE6952570C0A7 /* ReplaceMe.swift */; };
 		F1B47D8C16885FFA3A955A557B304D93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		FAECF1C333E07B4667B28990BB3DCA0E /* ANRLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C878B0D0A05C386BD77B3CD2D7295D4A /* ANRLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAECF1C333E07B4667B28990BB3DCA0E /* ANRLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAEF31DABC76355E803FC20B996541D1 /* ANRLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB3236B90E430478B2672B0A8BC6CC94 /* Pods-ANRLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8275F9AA65108131D493C585317103 /* Pods-ANRLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -39,35 +39,32 @@
 /* Begin PBXFileReference section */
 		0282034DAEDF660883780ACFA112FAD3 /* Pods-ANRLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ANRLib_Example-Info.plist"; sourceTree = "<group>"; };
 		1037F8D93FE561916416AAB156B7AAE5 /* Pods_ANRLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ANRLib_Example.framework; path = "Pods-ANRLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1890C4E798B7E99A07BA2F539050D191 /* ANRLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ANRLib.release.xcconfig; sourceTree = "<group>"; };
 		2097C9FBF752BA45E79A279265C4A5DD /* Pods-ANRLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ANRLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		2CFCCC848E7B05BAAAF1FDB668FE3B4C /* Pods-ANRLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ANRLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2DF9DDB25979995760431D120B492156 /* Pods_ANRLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ANRLib_Tests.framework; path = "Pods-ANRLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ED835EED646BBF0D5940AA64E0E20FB /* ANRLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ANRLib.release.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		408C16A2C828AA3E690015E8F2B89CA8 /* Pods-ANRLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANRLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		48D340AC76C8F2E2763263DFD86E46C2 /* ANRLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ANRLib-Info.plist"; sourceTree = "<group>"; };
 		4F143E2F3FBEA58424DE0F552A964127 /* Pods-ANRLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANRLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		55B9599BE614D0FE50D4B28706900230 /* ANRLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ANRLib-Info.plist"; sourceTree = "<group>"; };
-		5774329CDF6275C47A0C17E4242EEC09 /* ANRLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ANRLib.debug.xcconfig; sourceTree = "<group>"; };
-		5C562A7F49FE008D4F923B5884B2F239 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5FB0540936BF7E1076CC83A94729D9C2 /* ANRLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ANRLib.modulemap; sourceTree = "<group>"; };
+		634DD7610ABA847F9F5D86AC23C3B330 /* ANRLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ANRLib.debug.xcconfig; sourceTree = "<group>"; };
 		718F24C0B931454BBBDF8E525177A31E /* ANRLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ANRLib.framework; path = ANRLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8006AA99132882032594C03AD04B5BB9 /* Pods-ANRLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANRLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		81CF2076F82BE5544912BF034FFD5075 /* ANRLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ANRLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8A3C93FEBE381F5185C30084CA4C7F6E /* Pods-ANRLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ANRLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8B03CACDC0452F0EF2883F58C5896F61 /* Pods-ANRLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ANRLib_Tests-Info.plist"; sourceTree = "<group>"; };
-		9365D7C60BEBE8533A8B86C2F60EB682 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A116B009E43831D0F8C2E2EFCBBBF7CD /* ANRLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ANRLib-prefix.pch"; sourceTree = "<group>"; };
-		A6080C3F4E1095C6B8E34E3F636A14B2 /* ANRLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ANRLib-dummy.m"; sourceTree = "<group>"; };
 		AB8275F9AA65108131D493C585317103 /* Pods-ANRLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ANRLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B27E306B895B54C80844FDD995B10579 /* Pods-ANRLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ANRLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B860EBFCA2CE97276CCBE6952570C0A7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ANRLib/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		C7D8B0B226778F81684422796877800E /* Pods-ANRLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ANRLib_Tests.modulemap"; sourceTree = "<group>"; };
-		C878B0D0A05C386BD77B3CD2D7295D4A /* ANRLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ANRLib-umbrella.h"; sourceTree = "<group>"; };
-		D051C68625C95D2AEF79B279B9C9591B /* ANRLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ANRLib.modulemap; sourceTree = "<group>"; };
+		CAEF31DABC76355E803FC20B996541D1 /* ANRLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ANRLib-umbrella.h"; sourceTree = "<group>"; };
+		CE6D9EBD56FAB9223A26F7790A9C1A11 /* ANRLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ANRLib-prefix.pch"; sourceTree = "<group>"; };
 		DBD0DF32CBF86E78951F5F3933B959E3 /* Pods-ANRLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ANRLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		E12CB5EB30B29E51B47DE646A6AA69F5 /* Pods-ANRLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ANRLib_Example.modulemap"; sourceTree = "<group>"; };
 		E39574EA828CF9C8BF75AD91D15186AC /* Pods-ANRLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ANRLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E6B742BFCEBC9DE1BD89B23D6EC93849 /* Pods-ANRLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ANRLib_Example-dummy.m"; sourceTree = "<group>"; };
-		EA0C0F129050767DFABC6B12050558FF /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ANRLib/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		EADFC0816B8AFC03A22692DB10A32652 /* ANRLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ANRLib-dummy.m"; sourceTree = "<group>"; };
 		F545EA4B3239E5D7DB60ED959B3BAE81 /* Pods-ANRLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ANRLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		FE38AE35D31A50F2E2C218A764D165B2 /* Pods-ANRLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANRLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,40 +97,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E41D1B48AE224B5DCA7EBCD39713B19 /* Support Files */ = {
+		041A24C1587BCEEAAB9862913F68E7CD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D051C68625C95D2AEF79B279B9C9591B /* ANRLib.modulemap */,
-				A6080C3F4E1095C6B8E34E3F636A14B2 /* ANRLib-dummy.m */,
-				55B9599BE614D0FE50D4B28706900230 /* ANRLib-Info.plist */,
-				A116B009E43831D0F8C2E2EFCBBBF7CD /* ANRLib-prefix.pch */,
-				C878B0D0A05C386BD77B3CD2D7295D4A /* ANRLib-umbrella.h */,
-				5774329CDF6275C47A0C17E4242EEC09 /* ANRLib.debug.xcconfig */,
-				1890C4E798B7E99A07BA2F539050D191 /* ANRLib.release.xcconfig */,
+				5FB0540936BF7E1076CC83A94729D9C2 /* ANRLib.modulemap */,
+				EADFC0816B8AFC03A22692DB10A32652 /* ANRLib-dummy.m */,
+				48D340AC76C8F2E2763263DFD86E46C2 /* ANRLib-Info.plist */,
+				CE6D9EBD56FAB9223A26F7790A9C1A11 /* ANRLib-prefix.pch */,
+				CAEF31DABC76355E803FC20B996541D1 /* ANRLib-umbrella.h */,
+				634DD7610ABA847F9F5D86AC23C3B330 /* ANRLib.debug.xcconfig */,
+				2ED835EED646BBF0D5940AA64E0E20FB /* ANRLib.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ANRLib";
-			sourceTree = "<group>";
-		};
-		21CE713BE3A4E561AC89A06435507E31 /* ANRLib */ = {
-			isa = PBXGroup;
-			children = (
-				EA0C0F129050767DFABC6B12050558FF /* ReplaceMe.swift */,
-				4B39E80ED32F2560BA87F5FFD6BFEA7D /* Pod */,
-				0E41D1B48AE224B5DCA7EBCD39713B19 /* Support Files */,
-			);
-			name = ANRLib;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		4B39E80ED32F2560BA87F5FFD6BFEA7D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				81CF2076F82BE5544912BF034FFD5075 /* ANRLib.podspec */,
-				5C562A7F49FE008D4F923B5884B2F239 /* LICENSE */,
-				9365D7C60BEBE8533A8B86C2F60EB682 /* README.md */,
-			);
-			name = Pod;
+			path = "../Target Support Files/ANRLib";
 			sourceTree = "<group>";
 		};
 		5667AA5D12C7B6697A24488214174A34 /* Products */ = {
@@ -146,12 +122,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		72C1A93A7FDB00E4CB5ADA633110FB41 /* Development Pods */ = {
+		5B7ACE399E84C224624335B088F3DB8A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				21CE713BE3A4E561AC89A06435507E31 /* ANRLib */,
+				7E2FBFCB37945B08EEAC9C785470744F /* ANRLib */,
 			);
-			name = "Development Pods";
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E2FBFCB37945B08EEAC9C785470744F /* ANRLib */ = {
+			isa = PBXGroup;
+			children = (
+				B860EBFCA2CE97276CCBE6952570C0A7 /* ReplaceMe.swift */,
+				041A24C1587BCEEAAB9862913F68E7CD /* Support Files */,
+			);
+			name = ANRLib;
+			path = ANRLib;
 			sourceTree = "<group>";
 		};
 		9836A0D84A328052EE939D59C82868C4 /* Targets Support Files */ = {
@@ -208,8 +194,8 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				72C1A93A7FDB00E4CB5ADA633110FB41 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5B7ACE399E84C224624335B088F3DB8A /* Pods */,
 				5667AA5D12C7B6697A24488214174A34 /* Products */,
 				9836A0D84A328052EE939D59C82868C4 /* Targets Support Files */,
 			);
@@ -508,7 +494,7 @@
 		};
 		8741F2A3B534E80A0CE31DA4A149985C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1890C4E798B7E99A07BA2F539050D191 /* ANRLib.release.xcconfig */;
+			baseConfigurationReference = 2ED835EED646BBF0D5940AA64E0E20FB /* ANRLib.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -664,7 +650,7 @@
 		};
 		C9C1F8EC1FC5527B24B718E132128848 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5774329CDF6275C47A0C17E4242EEC09 /* ANRLib.debug.xcconfig */;
+			baseConfigurationReference = 634DD7610ABA847F9F5D86AC23C3B330 /* ANRLib.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
